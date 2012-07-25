@@ -51,7 +51,7 @@ body{
     margin: 0 auto;
     list-style-type: none;
     padding: 0;
-    padding-top: 3px;
+    padding-top: 9px;
     padding-bottom: 3px;
 }
 
@@ -59,12 +59,12 @@ body{
     display: inline;
 }
 
-#navigation a:link {
+#navigation a:link,a:visited {
     color:#ffffff;
     text-align: center;
-    padding: 3px 20px;
+    padding: 9px 20px 3px;
     text-decoration: none;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     font-size: large;
     font-weight: bold;
 }
@@ -89,9 +89,8 @@ body{
 
 /*logo*/
 #logo {	
-    padding: 27px 0px 0px 20px;
+    padding: 5px 0px 0px 20px;
     color: #fff;
-    font-size: 12px;
     float:right;
 }
 
@@ -100,6 +99,7 @@ body{
     font-size: 24px;
 
 }
+
 .logo_space{
     padding: 0 0 0 50px;}
 
