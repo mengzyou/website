@@ -98,7 +98,7 @@ body{
 }
 
 /*logo*/
-#logo {	
+#logo {
     padding: 0px 0px 0px 20px;
     color: #fff;
     float:right;
@@ -116,11 +116,15 @@ body{
     font-weight: bold;
 }
 
-#top{ 
+#top{
     height: 200px;
     padding: 24px 0 0 0;
-} 
+}
 
+.top_span_32 {
+    font-size: 32px;
+    line-height: 30px;
+}
 .top_span_36{
     font-size: 36px;
     line-height: 30px;
@@ -206,6 +210,18 @@ h1{
     border-color: #D8C7BD;
 }
 
+#content_products{
+/*    float: right;
+    width: 750px;
+    height: 468px;*/
+    margin: 2px;
+    /*padding: 0;*/
+    /*min-height: 456px;*/
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D8C7BD;
+}
+
 #slider-wrapper {
     /*    background: url(../images/top.jpg) no-repeat;*/
     width: 750px;
@@ -238,7 +254,7 @@ h1{
     bottom:-42px;
     display: none;
 }
-.nivo-controlNav a { 
+.nivo-controlNav a {
     display:block;
     width:22px;
     height:22px;
@@ -253,7 +269,7 @@ h1{
     background-position:0 -22px;
 }
 
-.nivo-directionNav a { 
+.nivo-directionNav a {
     display:block;
     width:30px;
     height:30px;
@@ -273,7 +289,7 @@ a.nivo-prevNav {
     text-shadow:none;
     font-family: Helvetica, Arial, sans-serif;
 }
-.nivo-caption a { 
+.nivo-caption a {
     color:#efe9d1;
     text-decoration:underline;
 }
@@ -309,6 +325,21 @@ div.picture_list a:hover img
 {
     opacity:0.4;
     filter:alpha(opacity=40);
+}
+
+/*products lis picturet*/
+div.picture_product {
+    /*margin-right: 40px;*/
+    margin: auto;
+    border:2px solid #D8C7BD;
+    height:auto;
+    width:auto;
+    background-color: #C9D5D3;
+}
+
+div.product_intro {
+    padding-left: 20px;
+    font-size: 18px;
 }
 
 #seprate_line, #blog_line {
@@ -411,20 +442,20 @@ h3 {
 #foot_line {
     margin-top: 6px;
     height: 2px;
-    background-color: #4B4A4A;
+    background-color: brown;
 }
 
 #footer{
     font-size: 18px;
     font-weight: bold;
-    color: #000000;
+    color: brown;
     text-align: left;
     padding: 20px 0px 0px 20px;
     height: 40px;
 }
 
 #footer a{
-    color: #000000;
+    color: brown;
     font-size: 12px;
     text-decoration: none;
 }
