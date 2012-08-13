@@ -143,6 +143,14 @@ nav a:hover {
     min-height: 100%;
 }
 
+#content article {
+    padding-left: 20px;
+    padding-right: 40px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #D8C7BD;
+}
+
 #content_bg{
     /*background: url('../images/content_bg.gif') left repeat-y;*/
     /*color: #666666;*/
