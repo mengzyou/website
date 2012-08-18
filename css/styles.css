@@ -218,7 +218,7 @@ h1{
     border-color: #D8C7BD;
 }
 
-#content_products{
+#content_products, #content_order {
 /*    float: right;
     width: 750px;
     height: 468px;*/
