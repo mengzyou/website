@@ -21,8 +21,8 @@ img
 
 body{
     font: 12px Arial, Helvetica, sans-serif;
-    /*background: url('../images/bg.jpg');*/
-    background-color: #FFFDF3;
+    background: url('../images/bg.jpg');
+    /*background-color: #FFFDF3;*/
 }
 
 .antiqua{}
