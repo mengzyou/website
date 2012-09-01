@@ -151,6 +151,20 @@ nav a:hover {
     border-color: #D8C7BD;
 }
 
+#content article h4,p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    padding:3px;
+}
+
+#content article h4 {
+    font-size:14px;
+}
+
+#content article p {
+    font-weight:bold;
+}
+
 #content_bg{
     /*background: url('../images/content_bg.gif') left repeat-y;*/
     /*color: #666666;*/
