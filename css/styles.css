@@ -487,3 +487,10 @@ h3 {
     font-size: 12px;
     text-decoration: underline;
 }
+
+/* For license */
+#license {
+    font-size: small;
+    font-weight: lighter;
+    color: grey;
+}
