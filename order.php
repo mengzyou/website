@@ -74,7 +74,7 @@
 
                 <div id="foot_line"></div>
                 <div id="footer">
-                    <p>&copy; 2012. Company Name. Inc. | <a href="#">Privacy Policy</a></p>
+                    <p>&copy; 2012 by ShunKeDa Inc. | <a href="#">All Rights Reserved.</a></p>
                     <p id="license">网站备案号: 沪ICP备12036362号-1</p>
                     <br/>
                 </div>
